@@ -1,41 +1,26 @@
-var pbSmbApp = angular.module('pbSmbApp', ['ng', 'ngRoute', 'ui.router']);
+var surveyApp = angular.module('surveyApp', ['ng', 'ngRoute', 'ui.router']);
 
-pbSmbApp.config(['$stateProvider', '$urlRouterProvider',
+surveyApp.config(['$stateProvider', '$urlRouterProvider',
     function ($stateProvider, $urlRouterProvider) {
 
         $stateProvider
-            .state('home', {
-                url: '/home',
-                templateUrl: 'app/solutions/views/homePage.html',
-                controller: 'homePageController'
+            .state('startSurvey', {
+                url: '/startSurvey',
+                templateUrl: 'app/solutions/views/startSurvey.html',
+                controller: 'startSurveyController'
             })
-            .state('eCommerce', {
-                url: '/eCommerce',
-                templateUrl: 'app/solutions/views/eCommerce.html',
-                controller: 'eCommerceController'
+            .state('survey', {
+                url: '/survey',
+                templateUrl: 'app/solutions/views/survey.html',
+                controller: 'surveyController'
             })
-            .state('legalServices', {
-                url: '/legalServices',
-                templateUrl: 'app/solutions/views/legalServices.html',
-                controller: 'legalServicesController'
+            .state('completeSurvey', {
+                url: '/completeSurvey',
+                templateUrl: 'app/solutions/views/completeSurvey',
+                controller: 'completeSurveyController'
             })
-            .state('medicalProfessional', {
-                url: '/medicalProfessional',
-                templateUrl: 'app/solutions/views/medicalProfessional.html',
-                controller: 'medicalProController'
-            })
-            .state('otherProfessional', {
-                url: '/otherProfessional',
-                templateUrl: 'app/solutions/views/otherProfessional.html',
-                controller: 'otherProController'
-            })
-            .state('smallBusiness', {
-                url: '/smallBusiness',
-                templateUrl: 'app/solutions/views/smallBusinessRetailer.html',
-                controller: 'smallBusinessController'
-            });
 
-        $urlRouterProvider.otherwise('/home');
+        $urlRouterProvider.otherwise('/startSurvey');
     }])
 ;
 
