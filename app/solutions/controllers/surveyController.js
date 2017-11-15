@@ -19,7 +19,7 @@ surveyApp.controller('surveyController', ['$scope', 'commonService', function ($
                     for (var j = 0; j < apps[i][bundle].length; j++) {
                         for (var key in apps[i][bundle][j]) {
                             for (var k = 0; k < apps[i][bundle][j][key].length; k++) {
-                                $scope.setApps(apps[i][bundle][j][key][k].name);
+                                $scope.setApps(bundle + '-' + apps[i][bundle][j][key][k].name);
                             }
                         }
                     }
@@ -36,7 +36,7 @@ surveyApp.controller('surveyController', ['$scope', 'commonService', function ($
                     for (var j = 0; j < apps[i][bundle].length; j++) {
                         for (var key in apps[i][bundle][j]) {
                             for (var k = 0; k < apps[i][bundle][j][key].length; k++) {
-                                $scope.setApps(apps[i][bundle][j][key][k].name);
+                                $scope.setApps(bundle + '-' + apps[i][bundle][j][key][k].name);
                             }
                         }
                     }
@@ -54,7 +54,7 @@ surveyApp.controller('surveyController', ['$scope', 'commonService', function ($
             var index = $scope.selectedApps.indexOf(app);
             index != -1 ? $scope.selectedApps.splice(index, 1) : '';
         }
-    }
+    };
 
     $scope.catVsbundles = {
         'legal': [
