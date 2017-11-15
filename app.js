@@ -16,7 +16,7 @@ surveyApp.config(['$stateProvider', '$urlRouterProvider',
             })
             .state('completeSurvey', {
                 url: '/completeSurvey',
-                templateUrl: 'app/solutions/views/completeSurvey',
+                templateUrl: 'app/solutions/views/completeSurvey.html',
                 controller: 'completeSurveyController'
             })
 

@@ -3,5 +3,6 @@ surveyApp.controller('startSurveyController', ['$scope', 'commonService', functi
 
     $scope.setActiveCat = function (cat) {
         $scope.selectedService = cat;
+        commonService.selectedCategory = cat;
     }
 }]);
