@@ -1,10 +1,107 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+<header class="survey">
+	<h3>PB App Bundles Survey</h3>
+</header>
+<div class="survey-content">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-2 left-panel">
+				<h2 class="blue-text">Hello Deepak</h2>
 
-</body>
-</html>
+				<label class="catgeory">Categories</label>
+				<fieldset>
+				  <div class="controls-stacked">
+				    <label class="control radio">
+				      <input id="option1" name="radio" type="radio" value="option1">
+				      <span class="control-indicator"></span>
+				      Legal Services
+				    </label>
+
+				    <label class="control radio">
+				      <input id="option2" name="radio" type="radio" value="option2">
+				      <span class="control-indicator"></span>
+				      Small/E-commerce Retailers 
+				    </label>
+
+				    <label class="control radio ">
+				      <input id="option3" name="radio" type="radio" value="option3">
+				      <span class="control-indicator"></span>
+				      Insurance
+				    </label>
+
+				    <label class="control radio ">
+				      <input id="option4" name="radio" type="radio" value="option4">
+				      <span class="control-indicator"></span>
+				      Medical Professionals 
+				    </label>
+				  </div>
+				</fieldset>
+			</div>
+			<div class="col-md-10 main-section">
+				<div class="heading">
+					<h2 class="blue-text">Legal Services</h2>
+					<h5>We have created bundles for varying needs & scale for a Legal Practice</h5>
+					<h5>Please help us refine our understanding better by giving us feedback on your preferences.</h5>
+				</div>
+
+				<div class="body">
+					<h5>Please help us understand which of these bundles would you prefer investing in for your business. Please select a bundle that you would most likely invest in.</h5>
+					<h5>You can also select individual apps within a bundle to help us understand your preference.</h5>
+
+					<p>Please select your preferences irrespective of price for these bundles.</p>
+
+					<h4 class="blue-text text-center">Practice Management Bundle for Legal Services</h4>
+
+					<section class="bundle">
+						<div class="header">
+							<h4 class="blue-text">Set Up Bundle 1</h4>
+							<div class="bundleCheck">
+								<span class="checkBox">
+                                    <img 
+                                    ng-src="{{true?'images/logos/checkbox-blank-outline.png':'images/logos/checkbox-marked2.png'}}">
+                                 </span>
+                                 <label>I am more likely to buy this bundle</label>
+							</div>
+						</div>
+
+						<div class="appWrapper">
+							<div class="categories" ng-repeat="k in [1,2,3]">
+								<h5>category {{$index}}</h5>
+								<div class="appBoxContainer">
+									<div class="appBoxWrapper"  ng-repeat="k in [1,2]">
+										<div class="appbox">
+											<div class="appheading">
+												<div class="icon">
+													<img src="images/logos/Clicktime.png">
+												</div>
+											</div>
+											
+											<div class="appBody">
+												<label>CLick Time</label>
+												<p>Easy online Timesheets</p>
+											</div>
+
+											<div class="footer">
+												<span>$10 per person/month</span>
+											</div>
+										</div>
+										<div class="appcheckBox">
+											<span class="checkBox">
+			                                    <img 
+			                                    ng-src="{{true?'images/logos/checkbox-blank.png':'images/logos/checkbox-marked.png'}}">
+			                                 </span>
+			                                 <label>Select this App</label>
+										</div>
+									</div>
+								</div>
+								
+							</div>
+						</div>
+					</section>
+
+
+				</div>
+
+			</div>
+		</div>
+	</div>
+</div>
