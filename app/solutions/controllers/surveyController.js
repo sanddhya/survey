@@ -140,34 +140,133 @@ surveyApp.controller('surveyController', ['$scope', 'commonService', function ($
                             'hyperLink': 'http://www.shipminders.com'
                         }]
                     },
-                    {'Customer Management': [{iconUrl: '', name: '', desc: '', cost: ''}]},
-                    {'Productivity': [{iconUrl: '', name: '', desc: '', cost: ''}]},
-                    {'Customer Support': [{iconUrl: '', name: '', desc: '', cost: ''}]}
-                ]
+                    {
+                        'Customer Management': [{
+                            'name': 'Zoho',
+                            'desc': "Run your entire business with Zoho's suite of online productivity tools and SaaS applications.",
+                            'iconUrl': 'zoho-download.png',
+                            'cost': '$10 per person/Month',
+                            'hyperLink': ''
+                        }]
+                    },
+                    {
+                        'Productivity': [{
+                            'name': 'Slack',
+                            'desc': "Fewer meetings, less internal email, all your tools integrated. That's Slack.",
+                            'iconUrl': 'Slack-iOS-icon.png',
+                            'cost': '$10 per person/Month',
+                            'hyperLink': ''
+                        }]
+                    },
+                    {
+                        'Customer Support': [{
+                            'name': 'Freshdesk',
+                            'desc': 'Deliver support in a better way with Zoho Desk',
+                            'iconUrl': 'freshdesk logo.png',
+                            'cost': '$10 per person/Month',
+                            'hyperLink': ''
+                        }]
+                    }]
             },
             {
                 'Scale bundle': [
                     {
                         'Timesheet, Billing & Expanse Management': [{
-                            iconUrl: '',
-                            name: '',
-                            desc: '',
-                            cost: ''
-                        }, {iconUrl: '', name: '', desc: '', cost: ''}]
+                            'name': 'ClickTime',
+                            'desc': 'Easy Online Timesheets',
+                            'iconUrl': 'Clicktime.png',
+                            'cost': '$10 per person/Month',
+                            'hyperLink': 'https://www.clicktime.com/'
+                        },
+                            {
+                                'name': 'Toggl',
+                                'desc': 'Time Tracker & Employee Timesheet Software',
+                                'iconUrl': 'toggl.png',
+                                'cost': '$10 per person/Month',
+                                'hyperLink': 'https://toggl.com/'
+                            }]
                     },
-                    {'Appointment Management': [{iconUrl: '', name: '', desc: '', cost: ''}]},
-                    {'Accounting & Taxation': [{iconUrl: '', name: '', desc: '', cost: ''}]},
-                    {'Shipping & Mailing': [{iconUrl: '', name: '', desc: '', cost: ''}]},
-                    {'Customer Management': [{iconUrl: '', name: '', desc: '', cost: ''}]},
-                    {'Productivity': [{iconUrl: '', name: '', desc: '', cost: ''}]},
-                    {'Customer Support': [{iconUrl: '', name: '', desc: '', cost: ''}]},
-                    {'Marketing': [{iconUrl: '', name: '', desc: '', cost: ''}]},
-                    {'Workforce Management': [{iconUrl: '', name: '', desc: '', cost: ''}]}
+                    {
+                        'Appointment Management': [{
+                            'name': 'Appointy',
+                            'desc': 'Schedule Online, Increase Productivity, Retain Customers',
+                            'iconUrl': 'appointy.png',
+                            'cost': '$10 per person/Month',
+                            'hyperLink': 'https://appointy.com/'
+                        }]
+                    },
+                    {
+                        'Accounting & Taxation': [{
+                            'name': 'Quickbooks',
+                            'desc': '#1 Cloud Accounting Software for Small Businesses',
+                            'iconUrl': 'quickbooks.png',
+                            'cost': '$10 per person/Month',
+                            'hyperLink': 'https://www.quickbooks.in/'
+                        }]
+                    },
+                    {
+                        'Shipping & Mailing': [{
+                            'name': 'Shipminder',
+                            'desc': 'A calendar integration app that saves shipping costs',
+                            'iconUrl': 'Shipminders logo.png',
+                            'cost': '$10 per person/Month',
+                            'hyperLink': 'http://www.shipminders.com'
+                        }]
+                    },
+                    {
+                        'Customer Management': [{
+                            'name': 'Zoho',
+                            'desc': "Run your entire business with Zoho's suite of online productivity tools and SaaS applications.",
+                            'iconUrl': 'zoho-download.png',
+                            'cost': '$10 per person/Month',
+                            'hyperLink': ''
+                        }]
+                    },
+                    {
+                        'Productivity': [{
+                            'name': 'Slack',
+                            'desc': "Fewer meetings, less internal email, all your tools integrated. That's Slack.",
+                            'iconUrl': 'Slack-iOS-icon.png',
+                            'cost': '$10 per person/Month',
+                            'hyperLink': ''
+                        }]
+                    },
+                    {
+                        'Customer Support': [{
+                            'name': 'Freshdesk',
+                            'desc': 'Deliver support in a better way with Zoho Desk',
+                            'iconUrl': 'freshdesk logo.png',
+                            'cost': '$10 per person/Month',
+                            'hyperLink': ''
+                        }]
+                    },
+                    {
+                        'Marketing': [{
+                            'name': 'Adoo App',
+                            'desc': 'Smart Contacts and New Customer Acquisition App for SMBs',
+                            'iconUrl': '1_Adoo.png',
+                            'cost': '$10 per person/Month',
+                            'hyperLink': 'http://www.adooapp.com'
+                        }]
+                    },
+                    {
+                        'Workforce Management': [{
+                            'name': 'Workday',
+                            'desc': 'Workday offers a highly effective ERP alternative for HR and financial management to businesses.',
+                            'iconUrl': 'Workday_Logo.png',
+                            'cost': '$10 per person/Month',
+                            'hyperLink': ''
+                        }]
+                    }
                 ]
-            }],
-        'medical': [{'Set Up Bundle 1': []}, {'Set Up Bundle 2': []}, {'Streamline bundle': []}, {'Scale bundle': []}],
-        'insurance': [{'Set Up Bundle 1': []}, {'Set Up Bundle 2': []}, {'Streamline bundle': []}, {'Scale bundle': []}],
-        'ecommerce': [{'Set Up Bundle 1': []}, {'Set Up Bundle 2': []}, {'Streamline bundle': []}, {'Scale bundle': []}]
+            }
+        ]
+        /*
+                'medical':
+                    [{'Set Up Bundle 1': []}, {'Set Up Bundle 2': []}, {'Streamline bundle': []}, {'Scale bundle': []}],
+                'insurance':
+                    [{'Set Up Bundle 1': []}, {'Set Up Bundle 2': []}, {'Streamline bundle': []}, {'Scale bundle': []}],
+                'ecommerce':
+                    [{'Set Up Bundle 1': []}, {'Set Up Bundle 2': []}, {'Streamline bundle': []}, {'Scale bundle': []}]*/
     };
-
 }]);
