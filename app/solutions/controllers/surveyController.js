@@ -56,6 +56,14 @@ surveyApp.controller('surveyController', ['$scope', 'commonService', function ($
         }
     };
 
+
+    $scope.mapping = {
+        'legal': 'Legal Services',
+        'medical': 'Medical Professionals',
+        'insurance': 'Insurance',
+        'ecommerce': 'Small/E-commerce Retailers'
+    };
+
     $scope.catVsbundles = {
         'legal': [
             {
