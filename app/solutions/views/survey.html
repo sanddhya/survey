@@ -57,9 +57,9 @@
                             <div class="header">
                                 <h4 class="blue-text">{{k1}}</h4>
                                 <div class="bundleCheck">
-								<span class="checkBox">
+								<span class="checkBox" ng-click="setBundle(k1)">
                                     <img
-                                            ng-src="{{true?'images/logos/checkbox-blank-outline.png':'images/logos/checkbox-marked2.png'}}">
+                                            ng-src="{{selectedBundle.indexOf(k1)==-1?'images/logos/checkbox-blank-outline.png':'images/logos/checkbox-marked2.png'}}">
                                  </span>
                                     <label>I am more likely to buy this bundle</label>
                                 </div>
@@ -87,9 +87,9 @@
                                                     </div>
                                                 </div>
                                                 <div class="appcheckBox">
-											<span class="checkBox">
+											<span class="checkBox" ng-click="setApps(v5.name)">
 			                                    <img
-                                                        ng-src="{{true?'images/logos/checkbox-blank.png':'images/logos/checkbox-marked.png'}}">
+                                                        ng-src="{{selectedApps.indexOf(v5.name) == -1?'images/logos/checkbox-blank.png':'images/logos/checkbox-marked.png'}}">
 			                                 </span>
                                                     <label>Select this App</label>
                                                 </div>

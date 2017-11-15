@@ -7,6 +7,55 @@ surveyApp.controller('surveyController', ['$scope', 'commonService', function ($
         commonService.selectedCategory = cat;
     }
 
+    $scope.selectedBundle = [];
+    $scope.selectedApps = [];
+
+    $scope.setBundle = function (bundle) {
+        if ($scope.selectedBundle.indexOf(bundle) == -1) {
+            $scope.selectedBundle.push(bundle);
+            var apps = $scope.catVsbundles['legal'];
+            for (var i = 0; i < apps.length; i++) {
+                if (apps[i].hasOwnProperty(bundle)) {
+                    for (var j = 0; j < apps[i][bundle].length; j++) {
+                        for (var key in apps[i][bundle][j]) {
+                            for (var k = 0; k < apps[i][bundle][j][key].length; k++) {
+                                $scope.setApps(apps[i][bundle][j][key][k].name);
+                            }
+                        }
+                    }
+                    break;
+                }
+            }
+        } else {
+            var index = $scope.selectedBundle.indexOf(bundle);
+            index != -1 ? $scope.selectedBundle.splice(index, 1) : '';
+            var apps = $scope.catVsbundles['legal'];
+
+            for (var i = 0; i < apps.length; i++) {
+                if (apps[i].hasOwnProperty(bundle)) {
+                    for (var j = 0; j < apps[i][bundle].length; j++) {
+                        for (var key in apps[i][bundle][j]) {
+                            for (var k = 0; k < apps[i][bundle][j][key].length; k++) {
+                                $scope.setApps(apps[i][bundle][j][key][k].name);
+                            }
+                        }
+                    }
+                    break;
+                }
+            }
+        }
+    };
+
+
+    $scope.setApps = function (app) {
+        if ($scope.selectedApps.indexOf(app) == -1) {
+            $scope.selectedApps.push(app);
+        } else {
+            var index = $scope.selectedApps.indexOf(app);
+            index != -1 ? $scope.selectedApps.splice(index, 1) : '';
+        }
+    }
+
     $scope.catVsbundles = {
         'legal': [
             {
