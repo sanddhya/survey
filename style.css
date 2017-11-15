@@ -145,3 +145,18 @@ img{
     background: #fff;
     padding: 50px 0;
 }
+.completeSurvey{
+    background: black;
+    padding: 30px;
+}
+a.magenta-btn{
+    background: #cf0989;
+    padding: 15px 40px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+a.remindLater{
+	color: #cf0989;
+    margin-right: 20px;
+}
