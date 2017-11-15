@@ -13,7 +13,7 @@ header.survey{
 .blue-text{
 	color: #3e53a4;
 }
-h1,h2,h3,h4,h5,label{
+.survey-content h1,.survey-content h2,.survey-content h3,.survey-content h4,.survey-content h5,.survey-content label{
 	margin: 0;
 }
 .left-panel h2{
