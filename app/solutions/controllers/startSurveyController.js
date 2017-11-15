@@ -1,3 +1,3 @@
-var startSurveyController = surveyApp.controller(['$scope', function ($scope) {
+surveyApp.controller('startSurveyController', ['$scope', function ($scope) {
 
 }]);

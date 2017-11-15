@@ -1,0 +1,5 @@
+.container-fluid {
+    background-image: linear-gradient(90deg, #3e53a4 0%, #cf0989 100%);
+    color: #fff;
+    border: 0;
+}

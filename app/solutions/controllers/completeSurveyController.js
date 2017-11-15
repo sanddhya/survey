@@ -1,3 +1,3 @@
-var completeSurveyController = surveyApp.controller(['$scope', function ($scope) {
+surveyApp.controller('completeSurveyController',['$scope', function ($scope) {
 
 }]);
