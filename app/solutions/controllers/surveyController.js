@@ -1,6 +1,6 @@
 surveyApp.controller('surveyController', ['$scope', 'commonService', function ($scope, commonService) {
 
-    $scope.selectedCat = commonService.selectedCategory;
+    $scope.selectedCat = commonService.selectedCategory || 'legal';
     $scope.selectedBundle = [];
     $scope.selectedApps = [];
 
@@ -653,7 +653,7 @@ surveyApp.controller('surveyController', ['$scope', 'commonService', function ($
                             {
                                 'name':'Sapiens IDIT Claims',
                                 'desc':'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-                                'iconUrl':'sapiensidit.png',
+                                'iconUrl':'sapiens.png',
                                 'cost':'$10 per person/Month',
                                 'hyperLink':''
                             }
@@ -700,7 +700,7 @@ surveyApp.controller('surveyController', ['$scope', 'commonService', function ($
                                     {
                                         'name': 'Luminate Health',
                                         'desc': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-                                        'iconUrl': 'luminatehealth.png',
+                                        'iconUrl': 'luminate.png',
                                         'cost': '$10 per person/Month',
                                         'hyperLink': ''
                                     }
