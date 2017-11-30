@@ -353,7 +353,7 @@ surveyApp.controller('surveyController', ['$scope', 'commonService', function ($
                             {
                                 'name': 'SearchnShip',
                                 'desc': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-                                'iconUrl': '6_Search n ship.png',
+                                'iconUrl': 'searchnship.png',
                                 'cost': '$10 per person/Month',
                                 'hyperLink': ''
                             },
@@ -389,7 +389,7 @@ surveyApp.controller('surveyController', ['$scope', 'commonService', function ($
                             {
                                 'name':'SyncNShip',
                                 'desc':'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-                                'iconUrl':'10_sync.png',
+                                'iconUrl':'syncnship.png',
                                 'cost':'$10 per person/Month',
                                 'hyperLink':''
                             },
@@ -455,7 +455,7 @@ surveyApp.controller('surveyController', ['$scope', 'commonService', function ($
                             {
                                 'name':'Square for Retail/ POS',
                                 'desc':'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-                                'iconUrl':'',
+                                'iconUrl':'square.png',
                                 'cost':'$10 per person/Month',
                                 'hyperLink':''
                             },
@@ -519,7 +519,7 @@ surveyApp.controller('surveyController', ['$scope', 'commonService', function ($
                             {
                                 'name': 'SelfserveBot',
                                 'desc': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-                                'iconUrl': '7selfserveboat.png',
+                                'iconUrl': 'selfservebot.png',
                                 'cost': '$10 per person/Month',
                                 'hyperLink': ''
                             },
@@ -544,7 +544,7 @@ surveyApp.controller('surveyController', ['$scope', 'commonService', function ($
                             {
                                 'name': 'SearchnShip',
                                 'desc': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-                                'iconUrl': '6_Search n ship.png',
+                                'iconUrl': 'searchnship.png',
                                 'cost': '$10 per person/Month',
                                 'hyperLink': ''
                             },
@@ -733,7 +733,7 @@ surveyApp.controller('surveyController', ['$scope', 'commonService', function ($
                                     {
                                         'name': 'SearchnShip',
                                         'desc': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-                                        'iconUrl': '6_Search n ship.png',
+                                        'iconUrl': 'searchnship.png',
                                         'cost': '$10 per person/Month',
                                         'hyperLink': ''
                                     },
@@ -817,7 +817,7 @@ surveyApp.controller('surveyController', ['$scope', 'commonService', function ($
                                         'hyperLink': ''
                                     },
                                     {
-                                        'name': 'Gsuit',
+                                        'name': 'Gsuite',
                                         'desc': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
                                         'iconUrl': 'gSuite.png',
                                         'cost': '$10 per person/Month',

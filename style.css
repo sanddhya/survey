@@ -41,8 +41,12 @@ header.survey{
     margin-top: 15px;
     padding: 20px;
 }
-.main-section p{
+.main-section p {
     margin-top: 20px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
 }
 section.bundle {
     background: #F9F8FB;
@@ -80,6 +84,7 @@ img{
     height: 250px;
     margin-right: 15px;
     position: relative;
+    background: #fff;
 }
 .appheading{
 	display: flex;
