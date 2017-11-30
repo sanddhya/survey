@@ -43,7 +43,9 @@
             <div class="col-md-10 main-section">
                 <div class="heading">
                     <h2 class="blue-text">{{mapping[selectedCat]}}</h2>
-                    <h5>We have created bundles for varying needs & scale for a Legal Practice</h5>
+                    <h5>We have created bundles for varying needs & scale for <span>
+                        {{mapping[selectedCat]}}
+                    </span></h5>
                     <h5>Please help us refine our understanding better by giving us feedback on your preferences.</h5>
                 </div>
 
@@ -54,7 +56,9 @@
 
                     <p>Please select your preferences irrespective of price for these bundles.</p>
 
-                    <h4 class="blue-text text-center">Practice Management Bundle for Legal Services</h4>
+                    <h4 class="blue-text text-center">Practice Management Bundle for <span>
+                        {{mapping[selectedCat]}}
+                    </span></h4>
 
                     <section class="bundle" ng-repeat="cat in catVsbundles[selectedCat]">
                         <div ng-repeat="(k1,v1) in cat">
