@@ -155,7 +155,7 @@ surveyApp.controller('surveyController', ['$scope', 'commonService', function ($
                     {
                         'Shipping & Mailing': [
                             {
-                                'name': 'Shipminder',
+                                'name': 'Shipminders',
                                 'desc': 'A calendar integration app that saves shipping costs',
                                 'iconUrl': 'Shipminders logo.png',
                                 'cost': '$10 per person/Month',
@@ -236,7 +236,7 @@ surveyApp.controller('surveyController', ['$scope', 'commonService', function ($
                     {
                         'Marketing': [
                             {
-                                'name': 'Adoo App',
+                                'name': 'Adoo',
                                 'desc': 'Smart Contacts and New Customer Acquisition App for SMBs',
                                 'iconUrl': '1_Adoo.png',
                                 'cost': '$10 per person/Month',
@@ -250,7 +250,7 @@ surveyApp.controller('surveyController', ['$scope', 'commonService', function ($
                                 'hyperLink':'http://www.onlinerepumanage.com'
                             },
                             {
-                                'name':'AudienceKart',
+                                'name':'Audience Kart',
                                 'desc':'Smart Audience connects SMBs such as small retail business owner, online retai....',
                                 'iconUrl':'2_Audicart.png',
                                 'cost':'$10 per person/Month',
@@ -285,14 +285,14 @@ surveyApp.controller('surveyController', ['$scope', 'commonService', function ($
                     {
                         'Customer Acquisition': [
                             {
-                                'name': 'Adoo App',
+                                'name': 'Adoo',
                                 'desc': 'Smart Contacts and New Customer Acquisition App for SMBs',
                                 'iconUrl': '1_Adoo.png',
                                 'cost': '$10 per person/Month',
                                 'hyperLink': 'http://www.adooapp.com'
                             },
                             {
-                                'name': 'AudienceKart',
+                                'name': 'Audience Kart',
                                 'desc': 'Smart Audience connects SMBs such as small retail business owner, online retai....',
                                 'iconUrl': '2_Audicart.png',
                                 'cost': '$10 per person/Month',
@@ -322,7 +322,7 @@ surveyApp.controller('surveyController', ['$scope', 'commonService', function ($
                     {
                         'Customer Management': [
                             {
-                                'name': 'ShipticketDesk',
+                                'name': 'Shipticketdesk',
                                 'desc': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
                                 'iconUrl': '9ship.png',
                                 'cost': '$10 per person/Month',
@@ -347,14 +347,14 @@ surveyApp.controller('surveyController', ['$scope', 'commonService', function ($
                     {
                         'Shipping and Mailing': [
                             {
-                                'name': 'Shipminder',
+                                'name': 'Shipminders',
                                 'desc': 'A calendar integration app that saves shipping costs',
                                 'iconUrl': 'Shipminders logo.png',
                                 'cost': '$10 per person/Month',
                                 'hyperLink': 'http://www.shipminders.com'
                             },
                             {
-                                'name': 'SearchnShip',
+                                'name': 'SearchNShip',
                                 'desc': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
                                 'iconUrl': 'searchnship.png',
                                 'cost': '$10 per person/Month',
@@ -502,7 +502,7 @@ surveyApp.controller('surveyController', ['$scope', 'commonService', function ($
                     {
                         'Customer Acquisition': [
                             {
-                                'name': 'Adoo App',
+                                'name': 'Adoo',
                                 'desc': 'Smart Contacts and New Customer Acquisition App for SMBs',
                                 'iconUrl': '1_Adoo.png',
                                 'cost': '$10 per person/Month',
@@ -513,7 +513,7 @@ surveyApp.controller('surveyController', ['$scope', 'commonService', function ($
                     {
                         'Customer Management': [
                             {
-                                'name': 'ShipticketDesk',
+                                'name': 'Shipticketdesk',
                                 'desc': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
                                 'iconUrl': '9ship.png',
                                 'cost': '$10 per person/Month',
@@ -538,14 +538,14 @@ surveyApp.controller('surveyController', ['$scope', 'commonService', function ($
                     {
                         'Shipping and Mailing': [
                             {
-                                'name': 'Shipminder',
+                                'name': 'Shipminders',
                                 'desc': 'A calendar integration app that saves shipping costs',
                                 'iconUrl': 'Shipminders logo.png',
                                 'cost': '$10 per person/Month',
                                 'hyperLink': 'http://www.shipminders.com'
                             },
                             {
-                                'name': 'SearchnShip',
+                                'name': 'SearchNShip',
                                 'desc': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
                                 'iconUrl': 'searchnship.png',
                                 'cost': '$10 per person/Month',
@@ -662,7 +662,7 @@ surveyApp.controller('surveyController', ['$scope', 'commonService', function ($
                     {
                         'Insurance Self Service': [
                             {
-                                'name':'Genie.ai',
+                                'name':'Genie.AI - Self Service Assistant',
                                 'desc':'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
                                 'iconUrl':'logoplaceholder.png',
                                 'cost':'$10 per person/Month',
@@ -727,14 +727,14 @@ surveyApp.controller('surveyController', ['$scope', 'commonService', function ($
                             {
                                 'Shipping and Mailing': [
                                     {
-                                        'name': 'Shipminder',
+                                        'name': 'Shipminders',
                                         'desc': 'A calendar integration app that saves shipping costs',
                                         'iconUrl': 'Shipminders logo.png',
                                         'cost': '$10 per person/Month',
                                         'hyperLink': 'http://www.shipminders.com'
                                     },
                                     {
-                                        'name': 'SearchnShip',
+                                        'name': 'SearchNShip',
                                         'desc': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
                                         'iconUrl': 'searchnship.png',
                                         'cost': '$10 per person/Month',
