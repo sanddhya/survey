@@ -67,7 +67,7 @@ surveyApp.controller('surveyController', ['$scope', 'commonService', function ($
         'ecommerce': 'Small/E-commerce Retailers'
     };
 
-    $scope.catVsbundles = $scope.catVsbundles = {
+    $scope.catVsbundles = {
         'legal': [
             {
                 'Set Up': [
@@ -86,32 +86,32 @@ surveyApp.controller('surveyController', ['$scope', 'commonService', function ($
                                 'cost': '$10 per person/Month'
                             },
                             {
-                                'name': 'Bigtime',
-                                'desc': '#1 Time & Billing App',
-                                'iconUrl': 'Bigtime.png',
-                                'cost': '$10 per person/Month',
-                                'hyperLink': 'https://www.bigtime.net/'
+                                'name':'Bigtime',
+                                'desc':'#1 Time & Billing App',
+                                'iconUrl':'Bigtime.png',
+                                'cost':'$10 per person/Month',
+                                'hyperLink':'https://www.bigtime.net/'
                             },
                             {
-                                'name': 'Expensify',
-                                'desc': 'Expense reports that don’t Suck !',
-                                'iconUrl': 'expensify.png',
-                                'cost': '$10 per person/Month',
-                                'hyperLink': 'https://www.expensify.com/'
+                                'name':'Expensify',
+                                'desc':'Expense reports that don’t Suck !',
+                                'iconUrl':'expensify.png',
+                                'cost':'$10 per person/Month',
+                                'hyperLink':'https://www.expensify.com/'
                             },
                             {
-                                'name': 'Concur',
-                                'desc': 'Business & Travel Expense Management',
-                                'iconUrl': 'concur.png',
-                                'cost': '$10 per person/Month',
-                                'hyperLink': 'https://www.concursolutions.com/'
+                                'name':'Concur',
+                                'desc':'Business & Travel Expense Management',
+                                'iconUrl':'concur.png',
+                                'cost':'$10 per person/Month',
+                                'hyperLink':'https://www.concursolutions.com/'
                             },
                             {
-                                'name': 'Certify',
-                                'desc': 'Travel & Expense Management Software',
-                                'iconUrl': 'certify.png',
-                                'cost': '$10 per person/Month',
-                                'hyperLink': 'https://www.certify.com/'
+                                'name':'Certify',
+                                'desc':'Travel & Expense Management Software',
+                                'iconUrl':'certify.png',
+                                'cost':'$10 per person/Month',
+                                'hyperLink':'https://www.certify.com/'
                             }
                         ]
                     },
@@ -125,11 +125,11 @@ surveyApp.controller('surveyController', ['$scope', 'commonService', function ($
                                 'hyperLink': 'https://appointy.com/'
                             },
                             {
-                                'name': 'Simplybook.me',
-                                'desc': 'Online booking system for websites, facebook and calendar scheduling app',
-                                'iconUrl': 'Simplybookme.png',
-                                'cost': '$10 per person/Month',
-                                'hyperLink': 'https://simplybook.me/'
+                                'name':'Simplybook.me',
+                                'desc':'Online booking system for websites, facebook and calendar scheduling app',
+                                'iconUrl':'Simplybookme.png',
+                                'cost':'$10 per person/Month',
+                                'hyperLink':'https://simplybook.me/'
                             }
 
                         ]
@@ -144,11 +144,11 @@ surveyApp.controller('surveyController', ['$scope', 'commonService', function ($
                                 'hyperLink': 'https://www.quickbooks.in/'
                             },
                             {
-                                'name': 'Freshbooks',
-                                'desc': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-                                'iconUrl': 'freshbooks.png',
-                                'cost': '$10 per person/Month',
-                                'hyperLink': ''
+                                'name':'Freshbooks',
+                                'desc':'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+                                'iconUrl':'freshbooks.png',
+                                'cost':'$10 per person/Month',
+                                'hyperLink':''
                             }
                         ]
                     },
@@ -184,11 +184,11 @@ surveyApp.controller('surveyController', ['$scope', 'commonService', function ($
                                 'hyperLink': ''
                             },
                             {
-                                'name': 'Insightly',
-                                'desc': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-                                'iconUrl': 'insightly.png',
-                                'cost': '$10 per person/Month',
-                                'hyperLink': ''
+                                'name':'Insightly',
+                                'desc':'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+                                'iconUrl':'insightly.png',
+                                'cost':'$10 per person/Month',
+                                'hyperLink':''
                             }
                         ]
                     },
@@ -202,11 +202,11 @@ surveyApp.controller('surveyController', ['$scope', 'commonService', function ($
                                 'hyperLink': ''
                             },
                             {
-                                'name': 'O365',
-                                'desc': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-                                'iconUrl': 'office365.png',
-                                'cost': '$10 per person/Month',
-                                'hyperLink': ''
+                                'name':'O365',
+                                'desc':'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+                                'iconUrl':'office365.png',
+                                'cost':'$10 per person/Month',
+                                'hyperLink':''
                             }
 
                         ]
@@ -221,11 +221,11 @@ surveyApp.controller('surveyController', ['$scope', 'commonService', function ($
                                 'hyperLink': ''
                             },
                             {
-                                'name': 'Zendesk',
-                                'desc': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-                                'iconUrl': 'zendesk.png',
-                                'cost': '$10 per person/Month',
-                                'hyperLink': ''
+                                'name':'Zendesk',
+                                'desc':'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+                                'iconUrl':'zendesk.png',
+                                'cost':'$10 per person/Month',
+                                'hyperLink':''
                             }
                         ]
                     },
@@ -243,18 +243,18 @@ surveyApp.controller('surveyController', ['$scope', 'commonService', function ($
                                 'hyperLink': 'http://www.adooapp.com'
                             },
                             {
-                                'name': 'Repumanage',
-                                'desc': 'Online reputation management solution',
-                                'iconUrl': '4_Repumanage.png',
-                                'cost': '$10 per person/Month',
-                                'hyperLink': 'http://www.onlinerepumanage.com'
+                                'name':'Repumanage',
+                                'desc':'Online reputation management solution',
+                                'iconUrl':'4_Repumanage.png',
+                                'cost':'$10 per person/Month',
+                                'hyperLink':'http://www.onlinerepumanage.com'
                             },
                             {
-                                'name': 'AudienceKart',
-                                'desc': 'Smart Audience connects SMBs such as small retail business owner, online retai....',
-                                'iconUrl': '2_Audicart.png',
-                                'cost': '$10 per person/Month',
-                                'hyperLink': 'http://www.audiencekart.com'
+                                'name':'AudienceKart',
+                                'desc':'Smart Audience connects SMBs such as small retail business owner, online retai....',
+                                'iconUrl':'2_Audicart.png',
+                                'cost':'$10 per person/Month',
+                                'hyperLink':'http://www.audiencekart.com'
                             }
                         ]
                     },
@@ -268,15 +268,15 @@ surveyApp.controller('surveyController', ['$scope', 'commonService', function ($
                                 'hyperLink': ''
                             },
                             {
-                                'name': 'SABA',
-                                'desc': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-                                'iconUrl': 'saba.png',
-                                'cost': '$10 per person/Month',
-                                'hyperLink': ''
+                                'name':'SABA',
+                                'desc':'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+                                'iconUrl':'saba.png',
+                                'cost':'$10 per person/Month',
+                                'hyperLink':''
                             }
                         ]
                     }
-                ]
+                    ]
             }
         ],
         'ecommerce': [
@@ -331,16 +331,16 @@ surveyApp.controller('surveyController', ['$scope', 'commonService', function ($
                             {
                                 'name': 'SelfserveBot',
                                 'desc': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-                                'iconUrl': '',
+                                'iconUrl': 'selfservebot.png',
                                 'cost': '$10 per person/Month',
                                 'hyperLink': ''
                             },
                             {
-                                'name': 'Repumanage',
-                                'desc': 'Online reputation management solution',
-                                'iconUrl': '4_Repumanage.png',
-                                'cost': '$10 per person/Month',
-                                'hyperLink': 'http://www.onlinerepumanage.com'
+                                'name':'Repumanage',
+                                'desc':'Online reputation management solution',
+                                'iconUrl':'4_Repumanage.png',
+                                'cost':'$10 per person/Month',
+                                'hyperLink':'http://www.onlinerepumanage.com'
                             }
                         ]
                     },
@@ -363,7 +363,7 @@ surveyApp.controller('surveyController', ['$scope', 'commonService', function ($
                             {
                                 'name': 'TrackO',
                                 'desc': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-                                'iconUrl': '',
+                                'iconUrl': 'tracko.png',
                                 'cost': '$10 per person/Month',
                                 'hyperLink': ''
                             },
@@ -390,29 +390,29 @@ surveyApp.controller('surveyController', ['$scope', 'commonService', function ($
                     {
                         'Multiple channel sales management': [
                             {
-                                'name': 'SyncNShip',
-                                'desc': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-                                'iconUrl': 'syncnship.png',
-                                'cost': '$10 per person/Month',
-                                'hyperLink': ''
+                                'name':'SyncNShip',
+                                'desc':'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+                                'iconUrl':'syncnship.png',
+                                'cost':'$10 per person/Month',
+                                'hyperLink':''
                             },
                             {
-                                'name': 'Seller Plus',
-                                'desc': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-                                'iconUrl': '',
-                                'cost': '$10 per person/Month',
-                                'hyperLink': ''
+                                'name':'Seller Plus',
+                                'desc':'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+                                'iconUrl':'sellerplus.png',
+                                'cost':'$10 per person/Month',
+                                'hyperLink':''
                             }
                         ]
                     },
                     {
                         'Workforce Productivity': [
                             {
-                                'name': 'O365',
-                                'desc': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-                                'iconUrl': 'office365.png',
-                                'cost': '$10 per person/Month',
-                                'hyperLink': ''
+                                'name':'O365',
+                                'desc':'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+                                'iconUrl':'office365.png',
+                                'cost':'$10 per person/Month',
+                                'hyperLink':''
                             },
                             {
                                 'name': 'Slack',
@@ -422,11 +422,11 @@ surveyApp.controller('surveyController', ['$scope', 'commonService', function ($
                                 'hyperLink': ''
                             },
                             {
-                                'name': 'Gsuite',
-                                'desc': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-                                'iconUrl': 'gSuite.png',
-                                'cost': '$10 per person/Month',
-                                'hyperLink': ''
+                                'name':'Gsuite',
+                                'desc':'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+                                'iconUrl':'gSuite.png',
+                                'cost':'$10 per person/Month',
+                                'hyperLink':''
                             }
 
                         ]
@@ -441,11 +441,11 @@ surveyApp.controller('surveyController', ['$scope', 'commonService', function ($
                                 'hyperLink': 'https://www.quickbooks.in/'
                             },
                             {
-                                'name': 'Freshbooks',
-                                'desc': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-                                'iconUrl': 'freshbooks.png',
-                                'cost': '$10 per person/Month',
-                                'hyperLink': ''
+                                'name':'Freshbooks',
+                                'desc':'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+                                'iconUrl':'freshbooks.png',
+                                'cost':'$10 per person/Month',
+                                'hyperLink':''
                             }
                         ]
                     },
@@ -456,44 +456,44 @@ surveyApp.controller('surveyController', ['$scope', 'commonService', function ($
                     {
                         'Point of Sale': [
                             {
-                                'name': 'Square for Retail/ POS',
-                                'desc': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-                                'iconUrl': 'square.png',
-                                'cost': '$10 per person/Month',
-                                'hyperLink': ''
+                                'name':'Square for Retail/ POS',
+                                'desc':'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+                                'iconUrl':'square.png',
+                                'cost':'$10 per person/Month',
+                                'hyperLink':''
                             },
                             {
-                                'name': 'Scandit Barcode scanner',
-                                'desc': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-                                'iconUrl': 'scandit.png',
-                                'cost': '$10 per person/Month',
-                                'hyperLink': ''
+                            'name':'Scandit Barcode scanner',
+                                'desc':'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+                                'iconUrl':'scandit.png',
+                                'cost':'$10 per person/Month',
+                                'hyperLink':''
                             }
                         ]
                     },
                     {
                         'Insurance': [
                             {
-                                'name': 'ParcInsurance',
-                                'desc': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-                                'iconUrl': '',
-                                'cost': '$10 per person/Month',
-                                'hyperLink': ''
+                                'name':'ParkInsurance',
+                                'desc':'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+                                'iconUrl':'parkinsurance.png',
+                                'cost':'$10 per person/Month',
+                                'hyperLink':''
                             }
                         ]
                     },
                     {
                         'Returns Management': [
                             {
-                                'name': 'Newgistics',
-                                'desc': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-                                'iconUrl': 'newgistics.png',
-                                'cost': '$10 per person/Month',
-                                'hyperLink': ''
+                                'name':'Newgistics',
+                                'desc':'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+                                'iconUrl':'newgistics.png',
+                                'cost':'$10 per person/Month',
+                                'hyperLink':''
                             }
                         ]
                     }
-                ]
+                    ]
             }
         ],
         'insurance': [
@@ -527,11 +527,11 @@ surveyApp.controller('surveyController', ['$scope', 'commonService', function ($
                                 'hyperLink': ''
                             },
                             {
-                                'name': 'Repumanage',
-                                'desc': 'Online reputation management solution',
-                                'iconUrl': '4_Repumanage.png',
-                                'cost': '$10 per person/Month',
-                                'hyperLink': 'http://www.onlinerepumanage.com'
+                                'name':'Repumanage',
+                                'desc':'Online reputation management solution',
+                                'iconUrl':'4_Repumanage.png',
+                                'cost':'$10 per person/Month',
+                                'hyperLink':'http://www.onlinerepumanage.com'
                             }
                         ]
                     },
@@ -554,7 +554,7 @@ surveyApp.controller('surveyController', ['$scope', 'commonService', function ($
                             {
                                 'name': 'TrackO',
                                 'desc': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-                                'iconUrl': '',
+                                'iconUrl': 'tracko.png',
                                 'cost': '$10 per person/Month',
                                 'hyperLink': ''
                             }
@@ -565,14 +565,14 @@ surveyApp.controller('surveyController', ['$scope', 'commonService', function ($
                             {
                                 'name': 'Box',
                                 'desc': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-                                'iconUrl': '',
+                                'iconUrl': 'boxlogo.png',
                                 'cost': '$10 per person/Month',
                                 'hyperLink': ''
                             },
                             {
                                 'name': 'Dropbox',
                                 'desc': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-                                'iconUrl': '',
+                                'iconUrl': 'dropbox.png',
                                 'cost': '$10 per person/Month',
                                 'hyperLink': ''
                             }
@@ -585,11 +585,11 @@ surveyApp.controller('surveyController', ['$scope', 'commonService', function ($
                     {
                         'Workforce Productivity': [
                             {
-                                'name': 'O365',
-                                'desc': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-                                'iconUrl': 'office365.png',
-                                'cost': '$10 per person/Month',
-                                'hyperLink': ''
+                                'name':'O365',
+                                'desc':'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+                                'iconUrl':'office365.png',
+                                'cost':'$10 per person/Month',
+                                'hyperLink':''
                             },
                             {
                                 'name': 'Slack',
@@ -599,11 +599,11 @@ surveyApp.controller('surveyController', ['$scope', 'commonService', function ($
                                 'hyperLink': ''
                             },
                             {
-                                'name': 'Gsuite',
-                                'desc': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-                                'iconUrl': 'gSuite.png',
-                                'cost': '$10 per person/Month',
-                                'hyperLink': ''
+                                'name':'Gsuite',
+                                'desc':'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+                                'iconUrl':'gSuite.png',
+                                'cost':'$10 per person/Month',
+                                'hyperLink':''
                             }
 
                         ]
@@ -618,29 +618,29 @@ surveyApp.controller('surveyController', ['$scope', 'commonService', function ($
                                 'hyperLink': 'https://www.quickbooks.in/'
                             },
                             {
-                                'name': 'Freshbooks',
-                                'desc': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-                                'iconUrl': 'freshbooks.png',
-                                'cost': '$10 per person/Month',
-                                'hyperLink': ''
+                                'name':'Freshbooks',
+                                'desc':'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+                                'iconUrl':'freshbooks.png',
+                                'cost':'$10 per person/Month',
+                                'hyperLink':''
                             }
                         ]
                     },
                     {
                         'Business Intelligence and Analytics': [
                             {
-                                'name': 'Zoho Reports',
-                                'desc': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-                                'iconUrl': 'zohoReport.png',
-                                'cost': '$10 per person/Month',
-                                'hyperLink': ''
+                                'name':'Zoho Reports',
+                                'desc':'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+                                'iconUrl':'zohoReport.png',
+                                'cost':'$10 per person/Month',
+                                'hyperLink':''
                             },
                             {
-                                'name': 'Microsoft PowerBI',
-                                'desc': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-                                'iconUrl': 'powerBI.png',
-                                'cost': '$10 per person/Month',
-                                'hyperLink': ''
+                                'name':'Microsoft PowerBI',
+                                'desc':'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+                                'iconUrl':'powerBI.png',
+                                'cost':'$10 per person/Month',
+                                'hyperLink':''
                             }
                         ]
                     }
@@ -651,229 +651,230 @@ surveyApp.controller('surveyController', ['$scope', 'commonService', function ($
                     {
                         'Claims Management': [
                             {
-                                'name': 'Sapiens IDIT Claims',
-                                'desc': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-                                'iconUrl': '',
-                                'cost': '$10 per person/Month',
-                                'hyperLink': ''
+                                'name':'Sapiens IDIT Claims',
+                                'desc':'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+                                'iconUrl':'sapiensidit.png',
+                                'cost':'$10 per person/Month',
+                                'hyperLink':''
                             }
                         ]
                     },
                     {
                         'Insurance Self Service': [
                             {
-                                'name': 'Genie.ai',
-                                'desc': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-                                'iconUrl': '',
-                                'cost': '$10 per person/Month',
-                                'hyperLink': ''
+                                'name':'Genie.ai',
+                                'desc':'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+                                'iconUrl':'logoplaceholder.png',
+                                'cost':'$10 per person/Month',
+                                'hyperLink':''
+                            }
+                        ]
+                    }
+                    ]
+            }
+        ],
+        'medical':
+                [
+                    {
+                        'Set up': [
+                            {
+                                'Appointment Management': [
+                                    {
+                                        'name': 'Simplybook.me',
+                                        'desc': 'Online booking system for websites, facebook and calendar scheduling app',
+                                        'iconUrl': 'Simplybookme.png',
+                                        'cost': '$10 per person/Month',
+                                        'hyperLink': 'https://simplybook.me/'
+                                    },
+                                    {
+                                        'name': 'Appointy',
+                                        'desc': 'Schedule Online, Increase Productivity, Retain Customers',
+                                        'iconUrl': 'appointy.png',
+                                        'cost': '$10 per person/Month',
+                                        'hyperLink': 'https://appointy.com/'
+                                    }
+                                ]
+                            },
+                            {
+                                'Patient Diagnosis': [
+                                    {
+                                        'name': 'Luminate Health',
+                                        'desc': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+                                        'iconUrl': 'luminatehealth.png',
+                                        'cost': '$10 per person/Month',
+                                        'hyperLink': ''
+                                    }
+                                ]
+                            },
+                            {
+                                'Document Management': [
+                                    {
+                                        'name': 'Box',
+                                        'desc': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+                                        'iconUrl': 'boxlogo.png',
+                                        'cost': '$10 per person/Month',
+                                        'hyperLink': ''
+                                    },
+                                    {
+                                        'name': 'Dropbox',
+                                        'desc': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+                                        'iconUrl': 'dropbox.png',
+                                        'cost': '$10 per person/Month',
+                                        'hyperLink': ''
+                                    }
+                                ]
+                            },
+                            {
+                                'Shipping and Mailing': [
+                                    {
+                                        'name': 'Shipminder',
+                                        'desc': 'A calendar integration app that saves shipping costs',
+                                        'iconUrl': 'Shipminders logo.png',
+                                        'cost': '$10 per person/Month',
+                                        'hyperLink': 'http://www.shipminders.com'
+                                    },
+                                    {
+                                        'name': 'SearchnShip',
+                                        'desc': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+                                        'iconUrl': 'searchnship.png',
+                                        'cost': '$10 per person/Month',
+                                        'hyperLink': ''
+                                    },
+                                    {
+                                        'name': 'TrackO',
+                                        'desc': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+                                        'iconUrl': 'tracko.png',
+                                        'cost': '$10 per person/Month',
+                                        'hyperLink': ''
+                                    },
+                                    {
+                                        'name': 'Shipping Companion',
+                                        'desc': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+                                        'iconUrl': '6_Search_ship.png',
+                                        'cost': '$10 per person/Month',
+                                        'hyperLink': ''
+                                    },
+                                    {
+                                        'name': 'Raven Delivery',
+                                        'desc': 'Raven Delivery’ is an on-demand delivery platform integrated with UberRush/PostMates systems to our SMB clients.',
+                                        'iconUrl': 'Reven Delivery.png',
+                                        'cost': '$10 per person/Month',
+                                        'hyperLink': 'http://www.ravendelivery.com'
+                                    }
+                                ]
+                            },
+                        ]
+                    },
+                    {
+                        'Streamline': [
+                            {
+                                'Electronic Health Records': [
+                                    {
+                                        'name': 'HealthFusion MediTouch',
+                                        'desc': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+                                        'iconUrl': 'HealthFusion.png',
+                                        'cost': '$10 per person/Month',
+                                        'hyperLink': ''
+                                    },
+                                    {
+                                        'name': 'Praxis EMR',
+                                        'desc': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+                                        'iconUrl': 'praxis.png',
+                                        'cost': '$10 per person/Month',
+                                        'hyperLink': ''
+                                    }
+                                ]
+                            },
+                            {
+                                'Accounting & Taxation': [
+                                    {
+                                        'name': 'Quickbooks',
+                                        'desc': '#1 Cloud Accounting Software for Small Businesses',
+                                        'iconUrl': 'quickbooks.png',
+                                        'cost': '$10 per person/Month',
+                                        'hyperLink': 'https://www.quickbooks.in/'
+                                    },
+                                    {
+                                        'name': 'Freshbooks',
+                                        'desc': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+                                        'iconUrl': 'freshbooks.png',
+                                        'cost': '$10 per person/Month',
+                                        'hyperLink': ''
+                                    }
+                                ]
+                            },
+                            {
+                                'Productivity': [
+                                    {
+                                        'name': 'O365',
+                                        'desc': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+                                        'iconUrl': 'office365.png',
+                                        'cost': '$10 per person/Month',
+                                        'hyperLink': ''
+                                    },
+                                    {
+                                        'name': 'Slack',
+                                        'desc': "Fewer meetings, less internal email, all your tools integrated. That's Slack.",
+                                        'iconUrl': 'Slack-iOS-icon.png',
+                                        'cost': '$10 per person/Month',
+                                        'hyperLink': ''
+                                    },
+                                    {
+                                        'name': 'Gsuite',
+                                        'desc': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+                                        'iconUrl': 'gSuite.png',
+                                        'cost': '$10 per person/Month',
+                                        'hyperLink': ''
+                                    }
+                                ]
+                            }]
+                    },
+                    {
+
+                        'Scale': [
+                            {
+                                'Productivity': [
+                                    {
+                                        'name': 'Radekal',
+                                        'desc': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+                                        'iconUrl': 'radekal.png',
+                                        'cost': '$10 per person/Month',
+                                        'hyperLink': ''
+                                    },
+                                    {
+                                        'name': 'Atmolytics',
+                                        'desc': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+                                        'iconUrl': 'Atmolytics.png',
+                                        'cost': '$10 per person/Month',
+                                        'hyperLink': ''
+                                    }
+                                ]
+                            },
+                            {
+                                'Billing & Collection': [
+                                    {
+                                        'name': 'CollaborateMD',
+                                        'desc': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+                                        'iconUrl': 'collaborate.png',
+                                        'cost': '$10 per person/Month',
+                                        'hyperLink': ''
+                                    }
+                                ]
+                            },
+                            {
+                                'Information Management': [
+                                    {
+                                        'name': 'Epocrates',
+                                        'desc': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+                                        'iconUrl': 'Epocrates.png',
+                                        'cost': '$10 per person/Month',
+                                        'hyperLink': ''
+                                    }
+                                ]
                             }
                         ]
                     }
                 ]
-            }
-        ],
-        'medical':
-            [
-                {
-                    'Set up': [
-                        {
-                            'Appointment Management': [
-                                {
-                                    'name': 'Simplybook.me',
-                                    'desc': 'Online booking system for websites, facebook and calendar scheduling app',
-                                    'iconUrl': 'Simplybookme.png',
-                                    'cost': '$10 per person/Month',
-                                    'hyperLink': 'https://simplybook.me/'
-                                },
-                                {
-                                    'name': 'Appointy',
-                                    'desc': 'Schedule Online, Increase Productivity, Retain Customers',
-                                    'iconUrl': 'appointy.png',
-                                    'cost': '$10 per person/Month',
-                                    'hyperLink': 'https://appointy.com/'
-                                }
-                            ]
-                        },
-                        {
-                            'Patient Diagnosis': [
-                                {
-                                    'name': 'Luminate Health',
-                                    'desc': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-                                    'iconUrl': '',
-                                    'cost': '$10 per person/Month',
-                                    'hyperLink': ''
-                                }
-                            ]
-                        },
-                        {
-                            'Document Management': [
-                                {
-                                    'name': 'Box',
-                                    'desc': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-                                    'iconUrl': '',
-                                    'cost': '$10 per person/Month',
-                                    'hyperLink': ''
-                                },
-                                {
-                                    'name': 'Dropbox',
-                                    'desc': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-                                    'iconUrl': '',
-                                    'cost': '$10 per person/Month',
-                                    'hyperLink': ''
-                                }
-                            ]
-                        },
-                        {
-                            'Shipping and Mailing': [
-                                {
-                                    'name': 'Shipminder',
-                                    'desc': 'A calendar integration app that saves shipping costs',
-                                    'iconUrl': 'Shipminders logo.png',
-                                    'cost': '$10 per person/Month',
-                                    'hyperLink': 'http://www.shipminders.com'
-                                },
-                                {
-                                    'name': 'SearchnShip',
-                                    'desc': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-                                    'iconUrl': 'searchnship.png',
-                                    'cost': '$10 per person/Month',
-                                    'hyperLink': ''
-                                },
-                                {
-                                    'name': 'TrackO',
-                                    'desc': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-                                    'iconUrl': '',
-                                    'cost': '$10 per person/Month',
-                                    'hyperLink': ''
-                                },
-                                {
-                                    'name': 'Shipping Companion',
-                                    'desc': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-                                    'iconUrl': '6_Search_ship.png',
-                                    'cost': '$10 per person/Month',
-                                    'hyperLink': ''
-                                },
-                                {
-                                    'name': 'Raven Delivery',
-                                    'desc': 'Raven Delivery’ is an on-demand delivery platform integrated with UberRush/PostMates systems to our SMB clients.',
-                                    'iconUrl': 'Reven Delivery.png',
-                                    'cost': '$10 per person/Month',
-                                    'hyperLink': 'http://www.ravendelivery.com'
-                                }
-                            ]
-                        },
-                    ]
-                },
-                {
-                    'Streamline': [
-                        {
-                            'Electronic Health Records': [
-                                {
-                                    'name': 'HealthFusion MediTouch',
-                                    'desc': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-                                    'iconUrl': '',
-                                    'cost': '$10 per person/Month',
-                                    'hyperLink': ''
-                                },
-                                {
-                                    'name': 'Praxis EMR',
-                                    'desc': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-                                    'iconUrl': '',
-                                    'cost': '$10 per person/Month',
-                                    'hyperLink': ''
-                                }
-                            ]
-                        },
-                        {
-                            'Accounting & Taxation': [
-                                {
-                                    'name': 'Quickbooks',
-                                    'desc': '#1 Cloud Accounting Software for Small Businesses',
-                                    'iconUrl': 'quickbooks.png',
-                                    'cost': '$10 per person/Month',
-                                    'hyperLink': 'https://www.quickbooks.in/'
-                                },
-                                {
-                                    'name': 'Freshbooks',
-                                    'desc': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-                                    'iconUrl': 'freshbooks.png',
-                                    'cost': '$10 per person/Month',
-                                    'hyperLink': ''
-                                }
-                            ]
-                        },
-                        {
-                            'Productivity': [
-                                {
-                                    'name': 'O365',
-                                    'desc': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-                                    'iconUrl': 'office365.png',
-                                    'cost': '$10 per person/Month',
-                                    'hyperLink': ''
-                                },
-                                {
-                                    'name': 'Slack',
-                                    'desc': "Fewer meetings, less internal email, all your tools integrated. That's Slack.",
-                                    'iconUrl': 'Slack-iOS-icon.png',
-                                    'cost': '$10 per person/Month',
-                                    'hyperLink': ''
-                                },
-                                {
-                                    'name': 'Gsuite',
-                                    'desc': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-                                    'iconUrl': 'gSuite.png',
-                                    'cost': '$10 per person/Month',
-                                    'hyperLink': ''
-                                }
-                            ]
-                        }]
-                },
-                {
 
-                    'Scale': [
-                        {
-                            'Productivity': [
-                                {
-                                    'name': 'Radekal',
-                                    'desc': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-                                    'iconUrl': '',
-                                    'cost': '$10 per person/Month',
-                                    'hyperLink': ''
-                                },
-                                {
-                                    'name': 'Atmolytics',
-                                    'desc': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-                                    'iconUrl': '',
-                                    'cost': '$10 per person/Month',
-                                    'hyperLink': ''
-                                }
-                            ]
-                        },
-                        {
-                            'Billing & Collection': [
-                                {
-                                    'name': 'CollaborateMD',
-                                    'desc': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-                                    'iconUrl': '',
-                                    'cost': '$10 per person/Month',
-                                    'hyperLink': ''
-                                }
-                            ]
-                        },
-                        {
-                            'Information Management': [
-                                {
-                                    'name': 'Epocrates',
-                                    'desc': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-                                    'iconUrl': '',
-                                    'cost': '$10 per person/Month',
-                                    'hyperLink': ''
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
     };
 }]);
