@@ -165,3 +165,16 @@ a.remindLater{
 	color: #cf0989;
     margin-right: 20px;
 }
+
+.catBox:hover .circle{
+    box-shadow: -3px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: -3px 0px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: -3px 0px rgba(0, 0, 0, 0.1);
+    -o-box-shadow: -3px 0px rgba(0, 0, 0, 0.1);
+}
+.catBox:hover .catName{
+    font-weight: bold;
+}
+.catBox{
+    cursor: pointer;
+}

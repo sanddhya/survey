@@ -29,7 +29,7 @@
                     <div class="row align-items-center">
                         <div class="col-md-12">
                             <h3 align="center" style="color:darkmagenta">Tell us who you are</h3>
-                            <div class="col-md-3" ng-click="setActiveCat('legal')">
+                            <div class="col-md-3 catBox" ng-click="setActiveCat('legal')">
                                 <div class="circle" ui-sref="survey" ng-class="{'active':selectedService=='legal'}">
                                     <div class="imgDiv">
                                         <img src="images/1.png"/>
@@ -37,7 +37,7 @@
                                 </div>
                                 <div class="catName" ng-class="{'active':selectedService=='legal'}">Legal Services</div>
                             </div>
-                            <div class="col-md-3" ng-click="setActiveCat('ecommerce')">
+                            <div class="col-md-3 catBox" ng-click="setActiveCat('ecommerce')">
                                 <div class="circle" ui-sref="survey" ng-class="{'active':selectedService=='ecommerce'}">
                                     <div class="imgDiv">
                                         <img src="images/2.png"/>
@@ -48,23 +48,23 @@
                                     Business Retailers
                                 </div>
                             </div>
-                            <div class="col-md-3" ng-click="setActiveCat('medical')">
-                                <div class="circle" ui-sref="survey" ng-class="{'active':selectedService=='medical'}">
-                                    <div class="imgDiv">
-                                        <img src="images/3.png"/>
-                                    </div>
-                                </div>
-                                <div class="catName" ng-class="{'active':selectedService=='medical'}">Medical
-                                    Professionals
-                                </div>
-                            </div>
-                            <div class="col-md-3" ng-click="setActiveCat('insurance')">
+                            <div class="col-md-3 catBox" ng-click="setActiveCat('insurance')">
                                 <div class="circle" ui-sref="survey" ng-class="{'active':selectedService=='insurance'}">
                                     <div class="imgDiv">
                                         <img src="images/4.png"/>
                                     </div>
                                 </div>
                                 <div class="catName" ng-class="{'active':selectedService=='insurance'}">Insurance
+                                    Professionals
+                                </div>
+                            </div>
+                            <div class="col-md-3 catBox" ng-click="setActiveCat('medical')">
+                                <div class="circle" ui-sref="survey" ng-class="{'active':selectedService=='medical'}">
+                                    <div class="imgDiv">
+                                        <img src="images/3.png"/>
+                                    </div>
+                                </div>
+                                <div class="catName" ng-class="{'active':selectedService=='medical'}">Medical
                                     Professionals
                                 </div>
                             </div>

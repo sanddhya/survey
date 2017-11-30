@@ -664,7 +664,7 @@ surveyApp.controller('surveyController', ['$scope', 'commonService', function ($
                             {
                                 'name':'Genie.AI - Self Service Assistant',
                                 'desc':'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-                                'iconUrl':'logoplaceholder.png',
+                                'iconUrl':'genieai.png',
                                 'cost':'$10 per person/Month',
                                 'hyperLink':''
                             }
