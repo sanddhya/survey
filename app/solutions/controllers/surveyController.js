@@ -399,7 +399,7 @@ surveyApp.controller('surveyController', ['$scope', 'commonService', function ($
                             {
                                 'name':'Seller Plus',
                                 'desc':'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-                                'iconUrl':'',
+                                'iconUrl':'sellerplus.png',
                                 'cost':'$10 per person/Month',
                                 'hyperLink':''
                             }
@@ -664,7 +664,7 @@ surveyApp.controller('surveyController', ['$scope', 'commonService', function ($
                             {
                                 'name':'Genie.ai',
                                 'desc':'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-                                'iconUrl':'',
+                                'iconUrl':'logoplaceholder.png',
                                 'cost':'$10 per person/Month',
                                 'hyperLink':''
                             }
@@ -700,7 +700,7 @@ surveyApp.controller('surveyController', ['$scope', 'commonService', function ($
                                     {
                                         'name': 'Luminate Health',
                                         'desc': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-                                        'iconUrl': '',
+                                        'iconUrl': 'luminatehealth.png',
                                         'cost': '$10 per person/Month',
                                         'hyperLink': ''
                                     }
@@ -844,7 +844,7 @@ surveyApp.controller('surveyController', ['$scope', 'commonService', function ($
                                     {
                                         'name': 'Atmolytics',
                                         'desc': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-                                        'iconUrl': '',
+                                        'iconUrl': 'Atmolytics.png',
                                         'cost': '$10 per person/Month',
                                         'hyperLink': ''
                                     }
