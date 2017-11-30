@@ -67,7 +67,7 @@ surveyApp.controller('surveyController', ['$scope', 'commonService', function ($
     $scope.catVsbundles = {
         'legal': [
             {
-                'Set Up Bundle 1': [
+                'Set Up': [
                     {
                         'Timesheet, Billing & Expanse Management': [
                             {
@@ -81,6 +81,34 @@ surveyApp.controller('surveyController', ['$scope', 'commonService', function ($
                                 'desc': 'Time Tracker & Employee Timesheet Software',
                                 'iconUrl': 'toggl.png',
                                 'cost': '$10 per person/Month'
+                            },
+                            {
+                                'name':'Bigtime',
+                                'desc':'#1 Time & Billing App',
+                                'iconUrl':'Bigtime.png',
+                                'cost':'$10 per person/Month',
+                                'hyperLink':'https://www.bigtime.net/'
+                            },
+                            {
+                                'name':'Expensify',
+                                'desc':'Expense reports that don’t Suck !',
+                                'iconUrl':'expensify.png',
+                                'cost':'$10 per person/Month',
+                                'hyperLink':'https://www.expensify.com/'
+                            },
+                            {
+                                'name':'Concur',
+                                'desc':'Business & Travel Expense Management',
+                                'iconUrl':'concur.png',
+                                'cost':'$10 per person/Month',
+                                'hyperLink':'https://www.concursolutions.com/'
+                            },
+                            {
+                                'name':'Certify',
+                                'desc':'Travel & Expense Management Software',
+                                'iconUrl':'certify.png',
+                                'cost':'$10 per person/Month',
+                                'hyperLink':'https://www.certify.com/'
                             }
                         ]
                     },
@@ -92,6 +120,13 @@ surveyApp.controller('surveyController', ['$scope', 'commonService', function ($
                                 'iconUrl': 'appointy.png',
                                 'cost': '$10 per person/Month',
                                 'hyperLink': 'https://appointy.com/'
+                            },
+                            {
+                                'name':'Simplybook.me',
+                                'desc':'Online booking system for websites, facebook and calendar scheduling app',
+                                'iconUrl':'Simplybookme.png',
+                                'cost':'$10 per person/Month',
+                                'hyperLink':'https://simplybook.me/'
                             }
 
                         ]
@@ -104,6 +139,13 @@ surveyApp.controller('surveyController', ['$scope', 'commonService', function ($
                                 'iconUrl': 'quickbooks.png',
                                 'cost': '$10 per person/Month',
                                 'hyperLink': 'https://www.quickbooks.in/'
+                            },
+                            {
+                                'name':'Freshbooks',
+                                'desc':'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+                                'iconUrl':'freshbooks.png',
+                                'cost':'$10 per person/Month',
+                                'hyperLink':''
                             }
                         ]
                     },
@@ -115,215 +157,519 @@ surveyApp.controller('surveyController', ['$scope', 'commonService', function ($
                                 'iconUrl': 'Shipminders logo.png',
                                 'cost': '$10 per person/Month',
                                 'hyperLink': 'http://www.shipminders.com'
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                'Set Up Bundle 2': [
-                    {
-                        'Timesheet, Billing & Expanse Management': [
+                            },
                             {
-                                'name': 'Toggl',
-                                'desc': 'Time Tracker & Employee Timesheet Software',
-                                'iconUrl': 'toggl.png',
-                                'cost': '$10 per person/Month'
-                            }
-                        ]
-                    },
-                    {
-                        'Appointment Management': [{
-                            'name': 'Appointy',
-                            'desc': 'Schedule Online, Increase Productivity, Retain Customers',
-                            'iconUrl': 'appointy.png',
-                            'cost': '$10 per person/Month',
-                            'hyperLink': 'https://appointy.com/'
-                        }]
-                    },
-                    {
-                        'Shipping & Mailing': [{
-                            'name': 'Raven Delivery',
-                            'desc': 'Raven Delivery’ is an on-demand delivery platform integrated with UberRush/PostMates systems to our SMB clients.',
-                            'iconUrl': 'Reven Delivery.png',
-                            'cost': '$10 per person/Month',
-                            'hyperLink': 'http://www.ravendelivery.com'
-                        }
-                        ]
-                    },
-                ]
-            },
-            {
-                'Streamline bundle': [
-                    {
-                        'Timesheet, Billing & Expanse Management': [{
-                            'name': 'ClickTime',
-                            'desc': 'Easy Online Timesheets',
-                            'iconUrl': 'Clicktime.png',
-                            'cost': '$10 per person/Month'
-                        },
-                            {
-                                'name': 'Toggl',
-                                'desc': 'Time Tracker & Employee Timesheet Software',
-                                'iconUrl': 'toggl.png',
-                                'cost': '$10 per person/Month'
-                            }]
-                    },
-                    {
-                        'Appointment Management': [{
-                            'name': 'Appointy',
-                            'desc': 'Schedule Online, Increase Productivity, Retain Customers',
-                            'iconUrl': 'appointy.png',
-                            'cost': '$10 per person/Month',
-                            'hyperLink': 'https://appointy.com/'
-                        }]
-                    },
-                    {
-                        'Accounting & Taxation': [{
-                            'name': 'Quickbooks',
-                            'desc': '#1 Cloud Accounting Software for Small Businesses',
-                            'iconUrl': 'quickbooks.png',
-                            'cost': '$10 per person/Month',
-                            'hyperLink': 'https://www.quickbooks.in/'
-                        }
-                        ]
-                    },
-                    {
-                        'Shipping & Mailing': [{
-                            'name': 'Shipminder',
-                            'desc': 'A calendar integration app that saves shipping costs',
-                            'iconUrl': 'Shipminders logo.png',
-                            'cost': '$10 per person/Month',
-                            'hyperLink': 'http://www.shipminders.com'
-                        }]
-                    },
-                    {
-                        'Customer Management': [{
-                            'name': 'Zoho',
-                            'desc': "Run your entire business with Zoho's suite of online productivity tools and SaaS applications.",
-                            'iconUrl': 'zoho-download.png',
-                            'cost': '$10 per person/Month',
-                            'hyperLink': ''
-                        }]
-                    },
-                    {
-                        'Productivity': [{
-                            'name': 'Slack',
-                            'desc': "Fewer meetings, less internal email, all your tools integrated. That's Slack.",
-                            'iconUrl': 'Slack-iOS-icon.png',
-                            'cost': '$10 per person/Month',
-                            'hyperLink': ''
-                        }]
-                    },
-                    {
-                        'Customer Support': [{
-                            'name': 'Freshdesk',
-                            'desc': 'Deliver support in a better way with Zoho Desk',
-                            'iconUrl': 'freshdesk logo.png',
-                            'cost': '$10 per person/Month',
-                            'hyperLink': ''
-                        }]
-                    }]
-            },
-            {
-                'Scale bundle': [
-                    {
-                        'Timesheet, Billing & Expanse Management': [{
-                            'name': 'ClickTime',
-                            'desc': 'Easy Online Timesheets',
-                            'iconUrl': 'Clicktime.png',
-                            'cost': '$10 per person/Month',
-                            'hyperLink': 'https://www.clicktime.com/'
-                        },
-                            {
-                                'name': 'Toggl',
-                                'desc': 'Time Tracker & Employee Timesheet Software',
-                                'iconUrl': 'toggl.png',
+                                'name': 'Raven Delivery',
+                                'desc': 'Raven Delivery’ is an on-demand delivery platform integrated with UberRush/PostMates systems to our SMB clients.',
+                                'iconUrl': 'Reven Delivery.png',
                                 'cost': '$10 per person/Month',
-                                'hyperLink': 'https://toggl.com/'
-                            }]
-                    },
-                    {
-                        'Appointment Management': [{
-                            'name': 'Appointy',
-                            'desc': 'Schedule Online, Increase Productivity, Retain Customers',
-                            'iconUrl': 'appointy.png',
-                            'cost': '$10 per person/Month',
-                            'hyperLink': 'https://appointy.com/'
-                        }]
-                    },
-                    {
-                        'Accounting & Taxation': [{
-                            'name': 'Quickbooks',
-                            'desc': '#1 Cloud Accounting Software for Small Businesses',
-                            'iconUrl': 'quickbooks.png',
-                            'cost': '$10 per person/Month',
-                            'hyperLink': 'https://www.quickbooks.in/'
-                        }]
-                    },
-                    {
-                        'Shipping & Mailing': [{
-                            'name': 'Shipminder',
-                            'desc': 'A calendar integration app that saves shipping costs',
-                            'iconUrl': 'Shipminders logo.png',
-                            'cost': '$10 per person/Month',
-                            'hyperLink': 'http://www.shipminders.com'
-                        }]
-                    },
-                    {
-                        'Customer Management': [{
-                            'name': 'Zoho',
-                            'desc': "Run your entire business with Zoho's suite of online productivity tools and SaaS applications.",
-                            'iconUrl': 'zoho-download.png',
-                            'cost': '$10 per person/Month',
-                            'hyperLink': ''
-                        }]
-                    },
-                    {
-                        'Productivity': [{
-                            'name': 'Slack',
-                            'desc': "Fewer meetings, less internal email, all your tools integrated. That's Slack.",
-                            'iconUrl': 'Slack-iOS-icon.png',
-                            'cost': '$10 per person/Month',
-                            'hyperLink': ''
-                        }]
-                    },
-                    {
-                        'Customer Support': [{
-                            'name': 'Freshdesk',
-                            'desc': 'Deliver support in a better way with Zoho Desk',
-                            'iconUrl': 'freshdesk logo.png',
-                            'cost': '$10 per person/Month',
-                            'hyperLink': ''
-                        }]
-                    },
-                    {
-                        'Marketing': [{
-                            'name': 'Adoo App',
-                            'desc': 'Smart Contacts and New Customer Acquisition App for SMBs',
-                            'iconUrl': '1_Adoo.png',
-                            'cost': '$10 per person/Month',
-                            'hyperLink': 'http://www.adooapp.com'
-                        }]
-                    },
-                    {
-                        'Workforce Management': [{
-                            'name': 'Workday',
-                            'desc': 'Workday offers a highly effective ERP alternative for HR and financial management to businesses.',
-                            'iconUrl': 'Workday_Logo.png',
-                            'cost': '$10 per person/Month',
-                            'hyperLink': ''
-                        }]
+                                'hyperLink': 'http://www.ravendelivery.com'
+                            }
+                        ]
                     }
                 ]
+            },
+            {
+                'Streamline': [
+                    {
+                        'Customer Management': [
+                            {
+                                'name': 'Zoho',
+                                'desc': "Run your entire business with Zoho's suite of online productivity tools and SaaS applications.",
+                                'iconUrl': 'zoho-download.png',
+                                'cost': '$10 per person/Month',
+                                'hyperLink': ''
+                            },
+                            {
+                                'name':'Insightly',
+                                'desc':'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+                                'iconUrl':'',
+                                'cost':'$10 per person/Month',
+                                'hyperLink':''
+                            }
+                        ]
+                    },
+                    {
+                        'Productivity': [
+                            {
+                                'name': 'Slack',
+                                'desc': "Fewer meetings, less internal email, all your tools integrated. That's Slack.",
+                                'iconUrl': 'Slack-iOS-icon.png',
+                                'cost': '$10 per person/Month',
+                                'hyperLink': ''
+                            },
+                            {
+                                'name':'Office 365',
+                                'desc':'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+                                'iconUrl':'',
+                                'cost':'$10 per person/Month',
+                                'hyperLink':''
+                            }
+
+                        ]
+                    },
+                    {
+                        'Customer Support': [
+                            {
+                                'name': 'Freshdesk',
+                                'desc': 'Deliver support in a better way with Zoho Desk',
+                                'iconUrl': 'freshdesk logo.png',
+                                'cost': '$10 per person/Month',
+                                'hyperLink': ''
+                            },
+                            {
+                                'name':'Zendesk',
+                                'desc':'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+                                'iconUrl':'',
+                                'cost':'$10 per person/Month',
+                                'hyperLink':''
+                            }
+                        ]
+                    },
+                ]
+            },
+            {
+                'Scale': [
+                    {
+                        'Marketing': [
+                            {
+                                'name': 'Adoo App',
+                                'desc': 'Smart Contacts and New Customer Acquisition App for SMBs',
+                                'iconUrl': '1_Adoo.png',
+                                'cost': '$10 per person/Month',
+                                'hyperLink': 'http://www.adooapp.com'
+                            },
+                            {
+                                'name':'Repumanage',
+                                'desc':'Online reputation management solution',
+                                'iconUrl':'4_Repumanage.png',
+                                'cost':'$10 per person/Month',
+                                'hyperLink':'http://www.onlinerepumanage.com'
+                            },
+                            {
+                                'name':'AudienceKart',
+                                'desc':'Smart Audience connects SMBs such as small retail business owner, online retai....',
+                                'iconUrl':'2_Audicart.png',
+                                'cost':'$10 per person/Month',
+                                'hyperLink':'http://www.audiencekart.com'
+                            }
+                        ]
+                    },
+                    {
+                        'Workforce Management': [
+                            {
+                                'name': 'Workday',
+                                'desc': 'Workday offers a highly effective ERP alternative for HR and financial management to businesses.',
+                                'iconUrl': 'Workday_Logo.png',
+                                'cost': '$10 per person/Month',
+                                'hyperLink': ''
+                            },
+                            {
+                                'name':'SABA',
+                                'desc':'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+                                'iconUrl':'',
+                                'cost':'$10 per person/Month',
+                                'hyperLink':''
+                            }
+                        ]
+                    }
+                    ]
+            }
+        ],
+        'ecommerce': [
+            {
+                'Set Up': [
+                    {
+                        'Customer Acquisition': [
+                            {
+                                'name': 'Adoo App',
+                                'desc': 'Smart Contacts and New Customer Acquisition App for SMBs',
+                                'iconUrl': '1_Adoo.png',
+                                'cost': '$10 per person/Month',
+                                'hyperLink': 'http://www.adooapp.com'
+                            },
+                            {
+                                'name': 'AudienceKart',
+                                'desc': 'Smart Audience connects SMBs such as small retail business owner, online retai....',
+                                'iconUrl': '2_Audicart.png',
+                                'cost': '$10 per person/Month',
+                                'hyperLink': 'http://www.audiencekart.com '
+                            }
+                        ]
+                    },
+                    {
+                        'Inventory Management': [
+                            {
+                                'name': 'Shopventory',
+                                'desc': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+                                'iconUrl': '',
+                                'cost': '$10 per person/Month',
+                                'hyperLink': ''
+                            },
+                            {
+                                'name': 'Celect',
+                                'desc': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+                                'iconUrl': '',
+                                'cost': '$10 per person/Month',
+                                'hyperLink': ''
+                            }
+
+                        ]
+                    },
+                    {
+                        'Customer Management': [
+                            {
+                                'name': 'ShipticketDesk',
+                                'desc': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+                                'iconUrl': '',
+                                'cost': '$10 per person/Month',
+                                'hyperLink': ''
+                            },
+                            {
+                                'name': 'SelfserveBot',
+                                'desc': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+                                'iconUrl': '',
+                                'cost': '$10 per person/Month',
+                                'hyperLink': ''
+                            },
+                            {
+                                'name':'Repumanage',
+                                'desc':'Online reputation management solution',
+                                'iconUrl':'4_Repumanage.png',
+                                'cost':'$10 per person/Month',
+                                'hyperLink':'http://www.onlinerepumanage.com'
+                            }
+                        ]
+                    },
+                    {
+                        'Shipping and Mailing': [
+                            {
+                                'name': 'Shipminder',
+                                'desc': 'A calendar integration app that saves shipping costs',
+                                'iconUrl': 'Shipminders logo.png',
+                                'cost': '$10 per person/Month',
+                                'hyperLink': 'http://www.shipminders.com'
+                            },
+                            {
+                                'name': 'SearchnShip',
+                                'desc': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+                                'iconUrl': '',
+                                'cost': '$10 per person/Month',
+                                'hyperLink': ''
+                            },
+                            {
+                                'name': 'TrackO',
+                                'desc': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+                                'iconUrl': '',
+                                'cost': '$10 per person/Month',
+                                'hyperLink': ''
+                            },
+                            {
+                                'name': 'Shipping Companion',
+                                'desc': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+                                'iconUrl': '',
+                                'cost': '$10 per person/Month',
+                                'hyperLink': ''
+                            },
+                            {
+                                'name': 'Raven Delivery',
+                                'desc': 'Raven Delivery’ is an on-demand delivery platform integrated with UberRush/PostMates systems to our SMB clients.',
+                                'iconUrl': 'Reven Delivery.png',
+                                'cost': '$10 per person/Month',
+                                'hyperLink': 'http://www.ravendelivery.com'
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                'Streamline': [
+                    {
+                        'Multiple channel sales management': [
+                            {
+                                'name':'SyncNShip',
+                                'desc':'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+                                'iconUrl':'',
+                                'cost':'$10 per person/Month',
+                                'hyperLink':''
+                            },
+                            {
+                                'name':'Seller Plus',
+                                'desc':'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+                                'iconUrl':'',
+                                'cost':'$10 per person/Month',
+                                'hyperLink':''
+                            }
+                        ]
+                    },
+                    {
+                        'Workforce Productivity': [
+                            {
+                                'name':'O365',
+                                'desc':'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+                                'iconUrl':'',
+                                'cost':'$10 per person/Month',
+                                'hyperLink':''
+                            },
+                            {
+                                'name': 'Slack',
+                                'desc': "Fewer meetings, less internal email, all your tools integrated. That's Slack.",
+                                'iconUrl': 'Slack-iOS-icon.png',
+                                'cost': '$10 per person/Month',
+                                'hyperLink': ''
+                            },
+                            {
+                                'name':'Gsuite',
+                                'desc':'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+                                'iconUrl':'',
+                                'cost':'$10 per person/Month',
+                                'hyperLink':''
+                            }
+
+                        ]
+                    },
+                    {
+                        'Accounting & Taxation': [
+                            {
+                                'name': 'Quickbooks',
+                                'desc': '#1 Cloud Accounting Software for Small Businesses',
+                                'iconUrl': 'quickbooks.png',
+                                'cost': '$10 per person/Month',
+                                'hyperLink': 'https://www.quickbooks.in/'
+                            },
+                            {
+                                'name':'Freshbooks',
+                                'desc':'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+                                'iconUrl':'',
+                                'cost':'$10 per person/Month',
+                                'hyperLink':''
+                            }
+                        ]
+                    },
+                ]
+            },
+            {
+                'Scale': [
+                    {
+                        'Point of Sale': [
+                            {
+                                'name':'Square for Retail/ POS',
+                                'desc':'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+                                'iconUrl':'',
+                                'cost':'$10 per person/Month',
+                                'hyperLink':''
+                            },
+                            {
+                            'name':'Scandit Barcode scanner',
+                                'desc':'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+                                'iconUrl':'',
+                                'cost':'$10 per person/Month',
+                                'hyperLink':''
+                            }
+                        ]
+                    },
+                    {
+                        'Insurance': [
+                            {
+                                'name':'ParcInsurance',
+                                'desc':'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+                                'iconUrl':'',
+                                'cost':'$10 per person/Month',
+                                'hyperLink':''
+                            }
+                        ]
+                    },
+                    {
+                        'Returns Management': [
+                            {
+                                'name':'Newgistics',
+                                'desc':'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+                                'iconUrl':'',
+                                'cost':'$10 per person/Month',
+                                'hyperLink':''
+                            }
+                        ]
+                    }
+                    ]
+            }
+        ],
+        'insurance': [
+            {
+                'Set Up': [
+                    {
+                        'Customer Acquisition': [
+                            {
+                                'name': 'Adoo App',
+                                'desc': 'Smart Contacts and New Customer Acquisition App for SMBs',
+                                'iconUrl': '1_Adoo.png',
+                                'cost': '$10 per person/Month',
+                                'hyperLink': 'http://www.adooapp.com'
+                            }
+                        ]
+                    },
+                    {
+                        'Customer Management': [
+                            {
+                                'name': 'ShipticketDesk',
+                                'desc': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+                                'iconUrl': '',
+                                'cost': '$10 per person/Month',
+                                'hyperLink': ''
+                            },
+                            {
+                                'name': 'SelfserveBot',
+                                'desc': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+                                'iconUrl': '',
+                                'cost': '$10 per person/Month',
+                                'hyperLink': ''
+                            },
+                            {
+                                'name':'Repumanage',
+                                'desc':'Online reputation management solution',
+                                'iconUrl':'4_Repumanage.png',
+                                'cost':'$10 per person/Month',
+                                'hyperLink':'http://www.onlinerepumanage.com'
+                            }
+                        ]
+                    },
+                    {
+                        'Shipping and Mailing': [
+                            {
+                                'name': 'Shipminder',
+                                'desc': 'A calendar integration app that saves shipping costs',
+                                'iconUrl': 'Shipminders logo.png',
+                                'cost': '$10 per person/Month',
+                                'hyperLink': 'http://www.shipminders.com'
+                            },
+                            {
+                                'name': 'SearchnShip',
+                                'desc': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+                                'iconUrl': '',
+                                'cost': '$10 per person/Month',
+                                'hyperLink': ''
+                            },
+                            {
+                                'name': 'TrackO',
+                                'desc': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+                                'iconUrl': '',
+                                'cost': '$10 per person/Month',
+                                'hyperLink': ''
+                            }
+                        ]
+                    },
+                    {
+                        'Document Management': [
+                            {
+                                'name': 'Box',
+                                'desc': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+                                'iconUrl': '',
+                                'cost': '$10 per person/Month',
+                                'hyperLink': ''
+                            },
+                            {
+                                'name': 'Dropbox',
+                                'desc': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+                                'iconUrl': '',
+                                'cost': '$10 per person/Month',
+                                'hyperLink': ''
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                'Streamline': [
+                    {
+                        'Workforce Productivity': [
+                            {
+                                'name':'O365',
+                                'desc':'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+                                'iconUrl':'',
+                                'cost':'$10 per person/Month',
+                                'hyperLink':''
+                            },
+                            {
+                                'name': 'Slack',
+                                'desc': "Fewer meetings, less internal email, all your tools integrated. That's Slack.",
+                                'iconUrl': 'Slack-iOS-icon.png',
+                                'cost': '$10 per person/Month',
+                                'hyperLink': ''
+                            },
+                            {
+                                'name':'Gsuite',
+                                'desc':'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+                                'iconUrl':'',
+                                'cost':'$10 per person/Month',
+                                'hyperLink':''
+                            }
+
+                        ]
+                    },
+                    {
+                        'Accounting & Taxation': [
+                            {
+                                'name': 'Quickbooks',
+                                'desc': '#1 Cloud Accounting Software for Small Businesses',
+                                'iconUrl': 'quickbooks.png',
+                                'cost': '$10 per person/Month',
+                                'hyperLink': 'https://www.quickbooks.in/'
+                            },
+                            {
+                                'name':'Freshbooks',
+                                'desc':'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+                                'iconUrl':'',
+                                'cost':'$10 per person/Month',
+                                'hyperLink':''
+                            }
+                        ]
+                    },
+                    {
+                        'Business Intelligence and Analytics': [
+                            {
+                                'name':'Zoho Reports',
+                                'desc':'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+                                'iconUrl':'',
+                                'cost':'$10 per person/Month',
+                                'hyperLink':''
+                            },
+                            {
+                                'name':'Microsoft PowerBI',
+                                'desc':'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+                                'iconUrl':'',
+                                'cost':'$10 per person/Month',
+                                'hyperLink':''
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                'Scale': [
+                    {
+                        'Claims Management': [
+                            {
+                                'name':'Sapiens IDIT Claims',
+                                'desc':'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+                                'iconUrl':'',
+                                'cost':'$10 per person/Month',
+                                'hyperLink':''
+                            }
+                        ]
+                    },
+                    {
+                        'Insurance Self Service': [
+                            {
+                                'name':'Genie.ai',
+                                'desc':'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+                                'iconUrl':'',
+                                'cost':'$10 per person/Month',
+                                'hyperLink':''
+                            }
+                        ]
+                    }
+                    ]
             }
         ]
-        /*
-                'medical':
-                    [{'Set Up Bundle 1': []}, {'Set Up Bundle 2': []}, {'Streamline bundle': []}, {'Scale bundle': []}],
-                'insurance':
-                    [{'Set Up Bundle 1': []}, {'Set Up Bundle 2': []}, {'Streamline bundle': []}, {'Scale bundle': []}],
-                'ecommerce':
-                    [{'Set Up Bundle 1': []}, {'Set Up Bundle 2': []}, {'Streamline bundle': []}, {'Scale bundle': []}]*/
+
     };
 }]);
