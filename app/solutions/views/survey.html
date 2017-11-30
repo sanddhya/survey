@@ -11,25 +11,29 @@
                 <fieldset>
                     <div class="controls-stacked">
                         <label class="control radio">
-                            <input id="option1" name="radio" type="radio" ng-model="selectedCat" value="legal">
+                            <input id="option1" name="radio" type="radio" ng-model="selectedCat" value="legal"
+                                   ng-change="setActiveCat()">
                             <span class="control-indicator"></span>
                             Legal Services
                         </label>
 
                         <label class="control radio">
-                            <input id="option2" name="radio" type="radio" ng-model="selectedCat" value="ecommerce">
+                            <input id="option2" name="radio" type="radio" ng-model="selectedCat" value="ecommerce"
+                                   ng-change="setActiveCat()">
                             <span class="control-indicator"></span>
                             Small/E-commerce Retailers
                         </label>
 
                         <label class="control radio ">
-                            <input id="option3" name="radio" type="radio" ng-model="selectedCat" value="insurance">
+                            <input id="option3" name="radio" type="radio" ng-model="selectedCat" value="insurance"
+                                   ng-change="setActiveCat()">
                             <span class="control-indicator"></span>
                             Insurance
                         </label>
 
                         <label class="control radio ">
-                            <input id="option4" name="radio" type="radio" ng-model="selectedCat" value="medical">
+                            <input id="option4" name="radio" type="radio" ng-model="selectedCat" value="medical"
+                                   ng-change="setActiveCat()">
                             <span class="control-indicator"></span>
                             Medical Professionals
                         </label>
@@ -87,7 +91,8 @@
                                                     </div>
                                                 </div>
                                                 <div class="appcheckBox">
-											<span class="checkBox" ng-click="setApps( k1+ '-' +v5.name)">
+											<span class="checkBox"
+                                                  ng-click="selectedApps.indexOf(k1+ '-' +v5.name) == -1 ? setApps( k1+ '-' +v5.name,true) :setApps( k1+ '-' +v5.name,false) ">
 			                                    <img
                                                         ng-src="{{selectedApps.indexOf(k1+ '-' +v5.name) == -1?'images/logos/checkbox-blank.png':'images/logos/checkbox-marked.png'}}">
 			                                 </span>
