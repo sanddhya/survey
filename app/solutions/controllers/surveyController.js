@@ -302,14 +302,14 @@ surveyApp.controller('surveyController', ['$scope', 'commonService', function ($
                             {
                                 'name': 'Shopventory',
                                 'desc': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-                                'iconUrl': '',
+                                'iconUrl': 'shopventory.png',
                                 'cost': '$10 per person/Month',
                                 'hyperLink': ''
                             },
                             {
                                 'name': 'Celect',
                                 'desc': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-                                'iconUrl': '',
+                                'iconUrl': 'celect.png',
                                 'cost': '$10 per person/Month',
                                 'hyperLink': ''
                             }
@@ -462,7 +462,7 @@ surveyApp.controller('surveyController', ['$scope', 'commonService', function ($
                             {
                             'name':'Scandit Barcode scanner',
                                 'desc':'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-                                'iconUrl':'',
+                                'iconUrl':'scandit.png',
                                 'cost':'$10 per person/Month',
                                 'hyperLink':''
                             }
@@ -484,7 +484,7 @@ surveyApp.controller('surveyController', ['$scope', 'commonService', function ($
                             {
                                 'name':'Newgistics',
                                 'desc':'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-                                'iconUrl':'',
+                                'iconUrl':'newgistics.png',
                                 'cost':'$10 per person/Month',
                                 'hyperLink':''
                             }
